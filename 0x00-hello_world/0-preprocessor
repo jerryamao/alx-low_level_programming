@@ -1,0 +1,13 @@
+#!/bin/bash
+
+CFILE="your_c_file_name.c"
+OUTPUT="c"
+
+gcc -E "$CFILE" -o "$OUTPUT"
+
+if [ $? -ne 0 ]; then
+  echo "Error running preprocessor on file $CFILE"
+  exit 1
+fi
+
+echo "Preprocessed file saved to $OUTPUT"
