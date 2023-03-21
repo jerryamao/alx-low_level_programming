@@ -5,8 +5,12 @@
  * Return: Always 0
  */
 
-main(void)
+int main(void)
 {
-	printf("_putchar\n");
-return (0);
+	char i;
+
+	for (i = "_putchar")
+		putchar(i);
+	putchar('\n');
+	return (0);
 }
