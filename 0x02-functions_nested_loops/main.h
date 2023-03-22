@@ -1,12 +1,13 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 
-int print_alphabet(void)
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+
+int main(void)
 {
-	char i;
-         /* Loop through the lowercase letters of the alphabet from 'a' to 'z' */
-	for (i = 'a' ; i <= 'z' ; i++)
-		 putchar(i);
-         putchar('\n');
-	 return (0);
+    print_alphabet();
+    return (0);
 }
