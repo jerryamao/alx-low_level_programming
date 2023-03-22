@@ -25,6 +25,6 @@ int alphabet(char i)
 int main(void)
 {
 	/* Call the alphabet function to print the lowercase English alphabet */
-	alphabet('a');
+	print_alphabet('a');
 	return (0);
 }
