@@ -5,7 +5,7 @@
  * Return: Always 0
  */
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char i;
 	/* Loop through the lowercase letters of the alphabet from 'a' to 'z' */
