@@ -7,7 +7,7 @@
  * Return: Always 0
  */
 
-int alphabet(char i)
+int print_alphabet(char i)
 {
 	/* Loop through the lowercase letters of the alphabet from 'a' to 'z' */
 	for (i = 'a' ; i <= 'z' ; i++)
@@ -25,6 +25,6 @@ int alphabet(char i)
 int main(void)
 {
 	/* Call the alphabet function to print the lowercase English alphabet */
-	print_alphabet('a');
+	alphabet('a');
 	return (0);
 }
