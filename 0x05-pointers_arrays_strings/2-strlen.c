@@ -3,19 +3,18 @@
 
 /**
  * _strelen - function that returns the length of a string
- * @s: parameter
- * @str: function parameter
- * Return: lenth
+ * @s: string whose length to be printed
+ * Return: count
  */
 
 int _strlen(char *s)
 {
-	int length = 0;
+	int i;
+	int count = 0;
 
-	while (*str != '\0')
+	for (i = 0 ; s[i] != '\0' ; i++)
 	{
-		length++;
-		str++;
+		count++;
 	}
-    return length;
+    return (count);
 }
