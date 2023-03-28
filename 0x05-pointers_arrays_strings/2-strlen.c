@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strelen - function that returns the length of a string
+ * _strlen - function that returns the length of a string
  * @s: string whose length to be printed
  * Return: count
  */
@@ -16,5 +16,5 @@ int _strlen(char *s)
 	{
 		count++;
 	}
-    return (count);
+	return (count);
 }
