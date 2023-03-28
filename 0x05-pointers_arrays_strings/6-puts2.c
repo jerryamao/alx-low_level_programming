@@ -10,7 +10,7 @@ void puts2(char *str)
 {
 	int i;
 
-	for (i = 0 ; str[i] <= 9 ; i++)
+	for (i = 0 ; str[i] <= 10 ; i++)
 	{
 		_putchar(str[i]);
 		i++;
